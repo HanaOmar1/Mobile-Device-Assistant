@@ -130,3 +130,20 @@ Raw device text is also wrapped in `<external_data>` tags, and the system prompt
 Requests longer than 500 characters are rejected.
 
 Invalid LLM outputs are validated using the Pydantic `Device` model. Validation failures trigger a retry, with a maximum of two retries.
+## Demo
+
+The following screenshots demonstrate the API functionality, including device extraction, hybrid search, validation, and prompt injection protection.
+
+### Screenshots
+
+![Demo Screenshot 1](Screenshots\(DEMO\)/Screenshot%202026-09-30%20012152.png)
+
+![Demo Screenshot 2](Screenshots\(DEMO\)/Screenshot%202026-09-30%20012210.png)
+
+![Demo Screenshot 3](Screenshots\(DEMO\)/Screenshot%202026-09-30%20012245.png)
+
+![Demo Screenshot 4](Screenshots\(DEMO\)/Screenshot%202026-09-30%20012302.png)
+
+![Demo Screenshot 5](Screenshots\(DEMO\)/Screenshot%202026-09-30%20012323.png)
+
+![Demo Screenshot 6](Screenshots\(DEMO\)/Screenshot%202026-09-30%20012339.png)
